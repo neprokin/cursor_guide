@@ -44,7 +44,13 @@
     "instantGrep": true,
     "multiAgentJudging": true,
     "pinnedChats": true,
-    "aiCommitMessage": true
+    "aiCommitMessage": true,
+    "bugbot": true,
+    "autoUpdateDocs": true,
+    "updateChannels": true,
+    "backgroundAgent": true,
+    "analyticsV2": true,
+    "githubActionsIntegration": true
   },
   "documentation": {
     "main": "cursor-project-setup-guide.md",
@@ -100,6 +106,12 @@
     "instantGrep": "Мгновенный grep для всех команд агента",
     "multiAgentJudging": "Автоматическая оценка результатов параллельных агентов",
     "pinnedChats": "Закрепление чатов в сайдбаре агента",
-    "aiCommitMessage": "Автоматическая генерация сообщений коммитов"
+    "aiCommitMessage": "Автоматическая генерация сообщений коммитов",
+    "bugbot": "Автоматический анализ pull request'ов для выявления багов и уязвимостей",
+    "autoUpdateDocs": "Автоматическое обновление документации через CLI в GitHub Actions",
+    "updateChannels": "Выбор между Default и Early Access каналами обновлений",
+    "backgroundAgent": "Запуск асинхронных процессов в удалённой среде",
+    "analyticsV2": "Обновлённая инфраструктура аналитики для командных аккаунтов",
+    "githubActionsIntegration": "Интеграция Cursor CLI с GitHub Actions и CI/CD пайплайнами"
   }
 } 
