@@ -2,8 +2,9 @@
   "project": {
     "name": "Cursor - Эксперт по настройке проектов",
     "description": "Единый гайд по настройке Cursor для любого типа проекта",
-    "version": "1.0.0",
-    "type": "documentation"
+    "version": "1.2.0",
+    "type": "documentation",
+    "repository": "https://github.com/neprokin/cursor_guide"
   },
   "cursor": {
     "projectRules": ".cursor/index.mdc",
