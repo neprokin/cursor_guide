@@ -2,7 +2,7 @@
   "project": {
     "name": "Cursor - Эксперт по настройке проектов",
     "description": "Единый гайд по настройке Cursor для любого типа проекта",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "type": "documentation",
     "repository": "https://github.com/neprokin/cursor_guide"
   },
@@ -62,7 +62,7 @@
     "atSymbols": "Контекстное понимание через @ символы (@Files, @Folders, @Code, @Web)",
     "rules": "Система правил для Agent и Inline Edit",
     "mcp": "Model Context Protocol для интеграции с внешними системами",
-    "agentModes": "Режимы Agent: Agent, Ask, Custom",
+    "agentModes": "Режимы Agent: Agent, Manual, Ask",
     "maxMode": "Расширение контекстного окна",
     "autoMode": "Автоматический выбор оптимальной модели ИИ",
     "terminalIntegration": "Выполнение команд через Agent",
