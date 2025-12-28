@@ -1,0 +1,71 @@
+{
+  "project": {
+    "name": "Cursor - Эксперт по настройке проектов",
+    "description": "Единый гайд по настройке Cursor для любого типа проекта",
+    "version": "1.0.0",
+    "type": "documentation"
+  },
+  "cursor": {
+    "projectRules": ".cursor/index.mdc",
+    "notepads": ".cursor/notepads/",
+    "ignore": ".cursorignore",
+    "documentation": ".cursor/documentation-sources.md"
+  },
+  "features": {
+    "tab": true,
+    "inlineEdit": true,
+    "agentMode": true,
+    "chatMode": true,
+    "atDocs": true,
+    "atSymbols": true,
+    "rules": true,
+    "mcp": true,
+    "agentModes": true,
+    "maxMode": true,
+    "autoMode": true,
+    "terminalIntegration": true,
+    "globalIgnore": true,
+    "aiModels": true
+  },
+  "documentation": {
+    "main": "cursor-project-setup-guide.md",
+    "dynamic": "cursor-dynamic-integration.md",
+    "readme": "README.md"
+  },
+  "targetAudience": [
+    "beginner-developers",
+    "experienced-developers", 
+    "teams-and-experts"
+  ],
+  "projectTypes": [
+    "react-typescript",
+    "nodejs-express",
+    "python-fastapi",
+    "vue-js",
+    "angular",
+    "python-django",
+    "react-native"
+  ],
+  "technologies": [
+    "markdown",
+    "javascript",
+    "nodejs",
+    "git"
+  ],
+  "featuresDescription": {
+    "tab": "Многострочное автодополнение кода",
+    "inlineEdit": "Редактирование кода естественным языком (⌘+K)",
+    "agentMode": "Виртуальный помощник для сложных задач (⌘+I)",
+    "chatMode": "Диалог с AI о коде (⌘+L)",
+    "atDocs": "Интеграция с документацией через @Docs",
+    "atSymbols": "Контекстное понимание через @ символы (@Files, @Folders, @Code, @Web)",
+    "rules": "Система правил для Agent и Inline Edit",
+    "mcp": "Model Context Protocol для интеграции с внешними системами",
+    "agentModes": "Режимы Agent: Agent, Ask, Custom",
+    "maxMode": "Расширение контекстного окна",
+    "autoMode": "Автоматический выбор оптимальной модели ИИ",
+    "terminalIntegration": "Выполнение команд через Agent",
+    "globalIgnore": "Исключение файлов через .cursorignore",
+    "aiModels": "Поддержка OpenAI, Anthropic, Google Gemini, xAI"
+  }
+} 
