@@ -1267,7 +1267,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Setup Cursor CLI
         run: |
-          curl -fsSL https://cursor.sh/install.sh | sh
+          curl https://cursor.com/install -fsS | bash
       - name: Update documentation
         env:
           CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
@@ -1294,7 +1294,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Setup Cursor CLI
         run: |
-          curl -fsSL https://cursor.sh/install.sh | sh
+          curl https://cursor.com/install -fsS | bash
       - name: Update specific docs
         env:
           CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
@@ -1368,17 +1368,20 @@ jobs:
 
 **Как использовать:**
 
-**1. Активация режима фонового агента:**
-- Нажми `Ctrl+E` (или `⌘+E` на macOS)
-- Активируется режим фонового агента в интерфейсе
+**1. Запуск фонового агента:**
+- Открой интерфейс фоновых агентов в Cursor (раздел Background Agents / Cloud Agents)
 - Отправь запрос агенту
-- Выбери агента из списка для просмотра статуса
+- Выбери агента из списка для просмотра статуса и прогресса
 
 **2. Боковая панель фонового агента:**
 - Используй вкладку фонового агента в боковой панели
 - Просматривай все агенты, связанные с аккаунтом
 - Ищи существующие агенты
 - Запускай новые фоновые агенты
+
+**3. Настройка окружения (важно):**
+- Для воспроизводимой среды Background Agents используй `environment.json` (см. официальную документацию)
+- Файл можно хранить в репозитории как `.cursor/environment.json` или держать приватно (зависит от политики проекта)
 
 **Настройка:**
 
@@ -1478,7 +1481,7 @@ jobs:
         env:
           CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
         run: |
-          cursor-agent -p "Проверь код и исправь проблемы линтера" --model gpt-4
+    cursor-agent -p "Проверь код и исправь проблемы линтера"
 ```
 
 **Практические сценарии:**
@@ -1489,7 +1492,7 @@ jobs:
   env:
     CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
   run: |
-    cursor-agent -p "Исправь все проблемы ESLint в измененных файлах" --model gpt-4
+    cursor-agent -p "Исправь все проблемы ESLint в измененных файлах"
     git config user.name "Cursor Bot"
     git config user.email "bot@cursor.com"
     git add .
@@ -1503,7 +1506,7 @@ jobs:
   env:
     CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
   run: |
-    cursor-agent -p "Обнови тесты для измененных компонентов" --model gpt-4
+    cursor-agent -p "Обнови тесты для измененных компонентов"
 ```
 
 **3. Проверка безопасности:**
@@ -1512,7 +1515,7 @@ jobs:
   env:
     CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
   run: |
-    cursor-agent -p "Проверь код на уязвимости безопасности и предложи исправления" --model gpt-4
+    cursor-agent -p "Проверь код на уязвимости безопасности и предложи исправления"
 ```
 
 **4. Генерация changelog:**
@@ -1521,7 +1524,7 @@ jobs:
   env:
     CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
   run: |
-    cursor-agent -p "Обнови CHANGELOG.md на основе коммитов" --model gpt-4
+    cursor-agent -p "Обнови CHANGELOG.md на основе коммитов"
 ```
 
 **Уровни автономности агента:**

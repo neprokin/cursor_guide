@@ -452,7 +452,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Setup Cursor CLI
         run: |
-          curl -fsSL https://cursor.sh/install.sh | sh
+          curl https://cursor.com/install -fsS | bash
       - name: Update documentation
         env:
           CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
@@ -502,7 +502,7 @@ jobs:
 **Background Agent** позволяет запускать асинхронные процессы, которые редактируют и выполняют код в удалённой среде.
 
 **Как использовать:**
-1. Нажми `Ctrl+E` (или `⌘+E` на macOS) для активации режима
+1. Открой интерфейс Background Agents в Cursor
 2. Отправь запрос агенту
 3. Выбери агента из списка для просмотра статуса
 4. Следи за прогрессом в боковой панели
@@ -564,7 +564,7 @@ jobs:
   env:
     CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
   run: |
-    cursor-agent -p "Проверь код и исправь проблемы" --model gpt-4
+    cursor-agent -p "Проверь код и исправь проблемы"
 ```
 
 **Практические сценарии:**

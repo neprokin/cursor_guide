@@ -2,7 +2,7 @@
   "project": {
     "name": "Cursor - Эксперт по настройке проектов",
     "description": "Единый гайд по настройке Cursor для любого типа проекта",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "type": "documentation",
     "repository": "https://github.com/neprokin/cursor_guide",
     "lastUpdated": "2026-01-17",
