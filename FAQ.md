@@ -1,6 +1,6 @@
 # ❓ FAQ - Часто задаваемые вопросы
 
-**📅 Дата актуализации с официальной документацией:** 28 декабря 2025  
+**📅 Дата актуализации с официальной документацией:** 17 января 2026 (проверено по `docs.cursor.com` и `cursor.com/changelog`, включая обновления Cursor CLI до 16 января 2026)  
 **📚 Официальная документация:** [cursor.com/docs](https://cursor.com/docs) | [docs.cursor.com](https://docs.cursor.com)  
 **📋 Changelog:** [cursor.com/changelog](https://cursor.com/changelog)
 
@@ -648,7 +648,7 @@ jobs:
 
 - **Официальная документация Cursor**: [docs.cursor.com](https://docs.cursor.com)
 - **Cursor Directory**: [cursor.directory](https://cursor.directory)
-- **GitHub проекта**: (добавь свою ссылку)
+- **GitHub проекта**: [github.com/neprokin/cursor_guide](https://github.com/neprokin/cursor_guide)
 - **CHANGELOG**: [CHANGELOG.md](./CHANGELOG.md)
 - **Основной гайд**: [cursor-project-setup-guide.md](./cursor-project-setup-guide.md)
 
@@ -663,5 +663,5 @@ jobs:
 
 ---
 
-**Последнее обновление**: 28 декабря 2025 (версия 2.0.0)
+**Последнее обновление**: 17 января 2026 (версия 2.0.1)
 

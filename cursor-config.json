@@ -2,10 +2,10 @@
   "project": {
     "name": "Cursor - Эксперт по настройке проектов",
     "description": "Единый гайд по настройке Cursor для любого типа проекта",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "type": "documentation",
     "repository": "https://github.com/neprokin/cursor_guide",
-    "lastUpdated": "2025-12-28",
+    "lastUpdated": "2026-01-17",
     "documentationSource": "https://cursor.com/docs",
     "changelogSource": "https://cursor.com/changelog"
   },
@@ -50,7 +50,10 @@
     "updateChannels": true,
     "backgroundAgent": true,
     "analyticsV2": true,
-    "githubActionsIntegration": true
+    "githubActionsIntegration": true,
+    "cliPlanMode": true,
+    "cliAskMode": true,
+    "cliRulesMcpCommands": true
   },
   "documentation": {
     "main": "cursor-project-setup-guide.md",
@@ -112,6 +115,9 @@
     "updateChannels": "Выбор между Default и Early Access каналами обновлений",
     "backgroundAgent": "Запуск асинхронных процессов в удалённой среде",
     "analyticsV2": "Обновлённая инфраструктура аналитики для командных аккаунтов",
-    "githubActionsIntegration": "Интеграция Cursor CLI с GitHub Actions и CI/CD пайплайнами"
+    "githubActionsIntegration": "Интеграция Cursor CLI с GitHub Actions и CI/CD пайплайнами",
+    "cliPlanMode": "Plan mode в Cursor CLI (актуальные обновления Jan 2026)",
+    "cliAskMode": "Ask mode в Cursor CLI (актуальные обновления Jan 2026)",
+    "cliRulesMcpCommands": "Команды Cursor CLI для управления Rules и MCP (обновления Jan 2026)"
   }
 } 
