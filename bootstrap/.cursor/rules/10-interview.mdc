@@ -1,0 +1,17 @@
+# Cursor rules: интервью (new project)
+
+Перед любыми изменениями задай вопросы и дождись ответов.
+
+## Вопросы (минимум)
+1. Название проекта и 1–2 предложения “что делаем”.
+2. Язык(и): TypeScript/JavaScript/Python/Go/Java/другое.
+3. Тип: frontend/backend/mobile/cli/infra/docs/monorepo.
+4. Фреймворк/платформа: (React/Next/Vue/Angular/FastAPI/Django/etc).
+5. Инструменты: линтер/форматер/тесты (если уже выбраны).
+6. Git: будет ли remote и где (GitHub/GitLab/нет).
+7. Приватность: Privacy Mode или Legacy (если важно).
+
+## После ответов
+- Создай `.cursor/rules/project.mdc` в корне проекта и сформулируй правила строго под выбранный стек.
+- Создай/обнови `.cursor/notepads/project-overview.md` под ответы пользователя.
+
