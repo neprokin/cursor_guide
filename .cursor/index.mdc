@@ -1,6 +1,10 @@
-# Project Rules — cursor_guide
+# Project Rules — cursor_guide (совместимость)
 
-Эти правила предназначены для репозитория `cursor_guide`: это документационный проект, который должен быть точным, проверяемым и удобным для использования Cursor AI.
+Этот файл сохранён для совместимости. Актуальные project rules для Cursor рекомендуется хранить в `.cursor/rules/*.mdc`.
+
+См.:
+- `.cursor/rules/00-cursor-guide.mdc`
+- `.cursor/rules/10-style.mdc`
 
 ## Цель
 - Поддерживать гайд **актуальным** относительно `docs.cursor.com` и `cursor.com/changelog`.
